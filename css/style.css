@@ -1,0 +1,117 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background: #f5f7fa;
+  font-size: 18px;
+}
+
+header {
+  background: #2c7be5;
+  color: white;
+  padding: 16px;
+  text-align: center;
+  font-size: 22px;
+}
+
+main {
+  padding: 20px;
+}
+
+.main-btn {
+  display: block;
+  margin: 20px 0;
+  padding: 20px;
+  background: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  border-radius: 10px;
+  font-size: 22px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 14px;
+  margin-top: 5px;
+  font-size: 18px;
+}
+
+button {
+  margin-top: 25px;
+  width: 100%;
+  padding: 18px;
+  font-size: 22px;
+  background: #2c7be5;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.call-btn {
+  display: block;
+  margin-top: 20px;
+  padding: 16px;
+  text-align: center;
+  background: #2c7be5;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.note {
+  background: #fff3cd;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.back-btn {
+  display: block;
+  margin-top: 20px;
+  padding: 16px;
+  text-align: center;
+  background: #e0e0e0;
+  color: #000;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.dl-btn {
+  display: inline-block;
+  padding: 8px 14px;
+  font-size: 14px;
+  background: #6c757d;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.dl-btn:hover {
+  opacity: 0.85;
+}

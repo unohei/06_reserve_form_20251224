@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>診療予約</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>診療予約</header>
+
+    <main>
+      <p class="note">※ 保険診療で症状がある方はこちらからご予約ください。</p>
+
+      <form action="save.php" method="POST">
+        <label>患者ID（8桁）</label>
+        <input type="text" name="patient_id" maxlength="8" required />
+        <label>氏名</label>
+        <input type="text" name="name" required />
+
+        <label>症状</label>
+        <textarea name="symptom" rows="4" required></textarea>
+
+        <label>診療科</label>
+        <select name="department" required>
+          <option value="">選択してください</option>
+          <option>内科</option>
+          <option>外科</option>
+          <option>整形外科</option>
+          <option>皮膚科</option>
+        </select>
+
+        <button type="submit">確定</button>
+      </form>
+      <a href="index.php" class="back-btn">戻る</a>
+    </main>
+  </body>
+</html>

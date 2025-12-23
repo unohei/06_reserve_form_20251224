@@ -6,23 +6,23 @@ PHP + ファイル保存で作成した簡易病院予約システム。
 
 ### 予約トップ（患者側）
 
-<img src="screenshots/1.png" width="30%" />
+<img src="screenshots/1.png" width="50%" />
 
 ### 診療予約画面（患者側）
 
-<img src="screenshots/2.png" width="30%" />
+<img src="screenshots/2.png" width="50%" />
 
 ### 健康診断画面（患者側）
 
-<p align="center">
-  <img src="screenshots/4.png" width="30%" />
-  <img src="screenshots/5.png" width="30%" />
+<p align="left">
+  <img src="screenshots/4.png" width="50%" />
+  <img src="screenshots/5.png" width="50%" />
 </p>
 ※時間内外で電話可否を分岐
 
 ### 管理画面(病院側)
 
-<img src="screenshots/3.png" width="30%" />
+<img src="screenshots/3.png" width="70%" />
 
 ## 2.工夫した点・こだわった点
 
